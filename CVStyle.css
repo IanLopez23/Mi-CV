@@ -1,0 +1,51 @@
+header{
+    display: flex;
+    background-color: goldenrod;
+    align-items: center;
+}
+header section{
+    background-color: rgb(255, 255, 255);
+}
+.Name{
+    margin-left: 100px;
+    margin-right: 200px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+}
+.ImageProfile{
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+main{
+    display: flex;
+    background-color: burlywood;
+}
+main section{
+    flex-grow: 2;
+}
+#EU{
+    margin-left: 100px;
+}
+.Skills{
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    flex-direction: column; 
+    flex-grow: 1;
+}
+.Skills li{
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+.Skills ul{
+    padding: 20px;
+    background-color: antiquewhite;
+}
+#HT{
+    color: white;
+    width: 300px;
+    background-color: black;
+    text-align: center;
+}
